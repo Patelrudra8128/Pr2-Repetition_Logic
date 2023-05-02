@@ -1,0 +1,26 @@
+<script type="text/javascript">
+    var p = parseInt(prompt("Enter marks of Physics : "));
+    var c = parseInt(prompt("Enter marks of Chemistry : "));
+    var b = parseInt(prompt("Enter marks of Biology : "));
+    var m = parseInt(prompt("Enter marks of Mathematics : "));
+    var co = parseInt(prompt("Enter marks of Computer : "));
+
+    var per = (p + c + b + m + co)/5;
+
+    if(per>=90){
+        document.write("You obtained A grade.");
+    }else if(per>=80){
+        document.write("You obtained B grade.");
+    }else if(per>=70){
+        document.write("You obtained C grade.");
+    }else if(per>=60){
+        document.write("You obtained D grade.");
+    }else if(per>=50){
+        document.write("You obtained E grade.");
+    }else if(per>=40){
+        document.write("You obtained F grade.");
+    }else{
+        document.write("You are Fail.");
+    }
+
+</script>
